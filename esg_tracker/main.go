@@ -1,8 +1,7 @@
 package main
-
 import (
-	"github.com/paulaetgr92/esg_tracker/models"
-	"github.com/paulaetgr92/esg_tracker/routes"
+    "github.com/paulaetgr92/esg_tracker/models"
+    "github.com/paulaetgr92/esg_tracker/routes"
 	"log"
 )
 

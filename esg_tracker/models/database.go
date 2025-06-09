@@ -18,7 +18,6 @@ func ConectarComBanco() {
 		log.Fatal("Erro ao conectar com o banco de dados:", err)
 	}
 
-	// Auto migrate da tabela Emissao
 	if err := DB.AutoMigrate(&Emissao{}); err != nil {
 		log.Fatal("Erro no AutoMigrate:", err)
 	}
